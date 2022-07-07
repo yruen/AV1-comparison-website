@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Simple AV1 comparison site</title>
+</head>
+<body>
+<h1>This is a simple AV1 codec comparison site</h1>
+<h2>One video not playing/only audio?</h2>
+<ul><font size="4">
+    <li>If on <b>Edge</b> on <b>Windows 10/11</b> make sure you have the <a href="https://apps.microsoft.com/store/detail/av1-video-extension/9MVZQVXJBQ9V?hl=en-us&gl=US">AV1 Video Extension</a> installed</li>
+    <li>Alternatively you can right click the video and open the link in <a href="https://mpv.io/">MPV</a> or <a href="https://www.videolan.org/vlc/">VLC</a> to play it <small>(libDav1d has gotten really good in performance)</small></li>
+</font></ul>
+
+<p>(Overall bitrate 1683 kb/s): The Owl House S01E01 x264, CRF 23, preset veryslow, tune animation, AAC 128Kbps. From <a href="https://www.theowlclub.net/preguntas-frecuentes/">The Owl Club</a></p>
+<video controls>
+  <source src="The.Owl.House.S01E01.1080p.AAC2.0.x264.TheOwlClub.mkv" type="video/mp4">
+</video>
+<p>(Overall bitrate 1616 kb/s): The Owl House S01E01 SVT-AV1, CRF35, preset 6, keyint=10s, filmgraim=5, scd=1, OPUS 96Kbps</p>
+<video controls>
+  <source src="The.Owl.House.S01E01.1080p.OPUS2.0.SVT.AV1.mkv" type="video/mp4">
+</video>
+</body>
+</html>
